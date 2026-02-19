@@ -64,6 +64,8 @@ core_fraction = 5 - это сколько процессора гарантир�
 
 Вместе они дают возможность, например, поднять небольшой кластер kubernetes из 3-5 машин и изучать его, тратя копейки. Без них за такие эксперименты пришлось бы платить как за полноценный продакшен.
 
+https://github.com/stomplego/base-terraform-8-03-hw/tree/main/zadanie1
+
 ### Задание 2
 
 1. Замените все хардкод-**значения** для ресурсов **yandex_compute_image** и **yandex_compute_instance** на **отдельные** переменные. К названиям переменных ВМ добавьте в начало префикс **vm_web_** .  Пример: **vm_web_name**.
@@ -71,6 +73,8 @@ core_fraction = 5 - это сколько процессора гарантир�
 3. Проверьте terraform plan. Изменений быть не должно. 
 
 !["zadanie2"](./images/zadanie2.png)
+
+https://github.com/stomplego/base-terraform-8-03-hw/tree/main/zadanie2
 
 ### Задание 3
 
@@ -82,6 +86,8 @@ core_fraction = 5 - это сколько процессора гарантир�
 !["zadanie3-2"](./images/zadanie3-2.png)
 !["zadanie3-3"](./images/zadanie3-3.png)
 
+https://github.com/stomplego/base-terraform-8-03-hw/tree/main/zadanie3
+
 ### Задание 4
 
 1. Объявите в файле outputs.tf **один** output , содержащий: instance_name, external_ip, fqdn для каждой из ВМ в удобном лично для вас формате.(без хардкода!!!)
@@ -91,6 +97,8 @@ core_fraction = 5 - это сколько процессора гарантир�
 
 !["zadanie4"](./images/zadanie4.png)
 
+https://github.com/stomplego/base-terraform-8-03-hw/tree/main/zadanie4
+
 ### Задание 5
 
 1. В файле locals.tf опишите в **одном** local-блоке имя каждой ВМ, используйте интерполяцию ${..} с НЕСКОЛЬКИМИ переменными по примеру из лекции.
@@ -98,6 +106,8 @@ core_fraction = 5 - это сколько процессора гарантир�
 3. Примените изменения.
 
 !["zadanie5"](./images/zadanie5.png)
+
+https://github.com/stomplego/base-terraform-8-03-hw/tree/main/zadanie5
 
 ### Задание 6
 
@@ -213,5 +223,6 @@ Plan: 0 to add, 2 to change, 0 to destroy.
 
 Note: You didn't use the -out option to save this plan, so Terraform can't guarantee to take exactly these actions if you run "terraform apply" now.
 
+https://github.com/stomplego/base-terraform-8-03-hw/tree/main/zadanie6
 
 ------
